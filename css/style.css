@@ -1,0 +1,130 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.bg-brand {
+    background-color:#313f49;
+}
+
+.bg-brand-green {
+    background-color:#99b83c;
+}
+
+.container {
+    max-width: 960px;
+  }
+  
+  
+  
+  .site-header {
+    background-color:#313f49;
+  }
+  .site-header a {
+    color: #999;
+    transition: ease-in-out color .15s;
+  }
+  .site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  .site-header .brand {
+      max-height: 50px;
+      width: auto;
+  }
+
+  .site-header .slogan {
+      color: white;
+      font-size: 1.7rem;
+      font-weight: 600;
+      padding: .5rem 0;
+  }
+  
+
+  .main-banner {
+      background-image: url(../img/head-bg.jpg);
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+  }
+
+  .main-banner h1 {
+      color: white;
+      text-shadow: 2px 2px 8px #000;
+  }
+
+  .main-banner .texto {
+      background-color: rgba(49, 63, 73, 0.7);
+      padding: .5em 1em;
+      border-radius: 1em;
+      margin-top: 1em;
+      color: white;
+  }
+  /*
+   * Dummy devices (replace them with your own or something else entirely!)
+   */
+  
+  .product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: #333;
+    border-radius: 21px;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+  }
+  
+  .product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+  }
+  
+  .product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+  }
+  
+  
+  /*
+   * Extra utilities
+   */
+  
+  .flex-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      -ms-flex: 1;
+      flex: 1;
+    }
+  }
+  
+  .overflow-hidden { overflow: hidden; }
+
+
+
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    }
+    
+    @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+    }
+    }
