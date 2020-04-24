@@ -38,7 +38,7 @@
             <a class="py-1" href="/">
                 <img class="brand" src="img/agendastic-h.png" alt="Agendastic">
             </a>
-            <div class="slogan">Agendamiento en línea</div>
+            <div class="slogan d-none d-sm-block">Agendamiento en línea</div>
         </div>
     </nav>
 
@@ -123,7 +123,7 @@
 
     <section class="my-5 container">
         <p class="py-3 h2 font-weight-normal text-center">
-            ¿Te interesa? Escribe ahora a <a class="font-weight-bold text-success" href="mailto:agendastic@davidvega.cl">agendastic@davidvega.cl</a> para obtener más información.
+            ¿Te interesa? Escribe ahora a <a class="font-weight-bold text-success email" href="mailto:agendastic@davidvega.cl">agendastic@davidvega.cl</a> para obtener más información.
         </p>
     </section>
 
@@ -133,14 +133,14 @@
 
     <section class="clientes container my-5">
         <h4 class="text-center mb-4">Clientes que felizmente usan Agendastic</h4>
-        <div class="lista d-flex justify-content-between mb-5">
+        <div class="lista d-flex flex-column flex-sm-row justify-content-between mb-5">
             <a href="https://agenda.jaimepsicologo.cl"><img src="img/logo-jaime-romero-psicologo.png" alt="Jaime Romero Psicólogo"></a>
             <a href="https://agenda.centrocenit.cl"><img src="img/logo-cenit.png" alt="Centro CENIT"></a>
             <a href="https://adibarber.cl"><img src="img/logo-adibarber.png" alt="ADI Barber Studio"></a>
         </div>
     </section>
 
-    <div class="d-block py-5">&nbsp;</div>
+    <div class="d-none d-sm-block py-5">&nbsp;</div>
 
 
     <footer class="bg-light mt-5 py-5">
@@ -149,7 +149,11 @@
                 <div class="col-12 col-md">
                     <img class="img-fluid mb-4" src="img/agendastic-h.png" alt="Agendastic">
                     <small class="d-block mb-3 text-muted">&copy; 2020</small>
-                    <div class="small"><a class="text-muted" href="https://davidvega.cl">https://davidvega.cl</a></div>
+                    <div class="small">
+                        <a class="text-muted" href="https://davidvega.cl">https://davidvega.cl</a>
+                        <br>
+                        Más info a <a class="text-muted" href="mailto:agendastic@davidvega.cl">agendastic@davidvega.cl</a>
+                    </div>
                 </div>
                 <div class="col-6 col-md">
                     
